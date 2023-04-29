@@ -1,0 +1,22 @@
+pragma solidity ^0.5.0;
+
+contract SS{
+    string str1="M.SC.IT PART 2";
+
+    string str2='KC. COLLEGE COLABA';
+
+    string str3=new string(2023);
+
+    function getstr1() public returns(string memory)
+    {
+        return str1;
+    }
+    function getstr2() public returns(string memory)
+    {
+        return str2;
+    }
+    function getstr3() public returns(string memory)
+    {
+        return str3;
+    }
+}

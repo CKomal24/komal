@@ -1,0 +1,32 @@
+pragma solidity ^0.8.0;
+contract SolidityTest {
+    uint storedData; // State variable
+    constructor() public{
+        storedData=10;
+    }
+    function getDiv() public view returns(uint){
+        uint a=10; // local variable
+        uint b=2;
+        uint result = a / b;
+    return result; // accesss the state variable
+
+    }
+    function getMul() public view returns(uint){
+        uint a=10; // local variable
+        uint b=2;
+        uint result = a * b;
+    return result; // accesss the state variable
+    }
+    function getSum() public view returns(uint){
+        uint a=10; // local variable
+        uint b=2;
+        uint result = a + b;
+    return result; // accesss the state variable
+    }
+    function getSub() public view returns(uint){
+        uint a=10; // local variable
+        uint b=2;
+        uint result = a - b;
+    return result; // accesss the state variable
+    }
+}

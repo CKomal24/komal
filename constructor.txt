@@ -1,0 +1,22 @@
+// Solidity program to demonstrate
+// creating a constructor
+pragma solidity >=0.8.2 <0.9.0;
+
+// Creating a contract
+contract constructorExample {
+
+// Declaring state variable
+string str;
+
+constructor() public {
+str = "K.C College : Komal Bhaskar Chavan :M.Sc Part II:Roll No 09";
+}
+
+// Defining function to
+// return the value of 'str'
+function getValue(
+) public view returns (
+string memory) {
+return str;
+}
+}
